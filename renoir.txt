@@ -1,6 +1,9 @@
-repo init -u https://github.com/LineageOS/android.git -b lineage-21.0 --git-lfs
-git clone https://github.com/sounddrill31/android_device_xiaomi_oxygen-3 device/xiaomi/oxygen -b lineage-21-qpr3
-git clone https://github.com/halibw/android_kernel_xiaomi_oxygen kernel/xiaomi/oxygen -b lineage-21
-git clone https://github.com/sounddrill31/proprietary_vendor_oxygen vendor/xiaomi/oxygen -b lineage-21-qpr3
-git clone https://github.com/halibw-dev/hardware_qcom_msm8953_4.19_audio -b 9.6.4.r1-05200 hardware/qcom-caf/msm8953/audio
-git clone https://github.com/halibw-dev/hardware_qcom_msm8953_4.19_media -b LA.UM.9.6.4.r1-05200 hardware/qcom-caf/msm8953/media
+repo init -u https://github.com/LineageOS/android.git -b lineage-22.2 --git-lfs
+https://github.com/LineageOS/android_hardware_mediatek -b lineage-22.2 hardware/mediatek
+https://github.com/LineageOS/android_hardware_samsung -b lineage-22.2 hardware/samsung
+https://github.com/LineageOS/android_device_mediatek_sepolicy_vndr -b lineage-22.2 device/mediatek/sepolicy_vndr
+https://github.com/yamotaprjkt/android_device_samsung_a04e -b lineage-22.2 device/samsung/a04e
+https://github.com/yamotaprjkt/android_device_samsung_mt6765-jdm -b lineage-22.2 device/samsung/mt6765-jdm
+https://github.com/yamotaprjkt/vendor_samsung_hq-camera -b lineage-22.2 vendor/samsung/hq-camera
+https://github.com/yamotaprjkt/vendor_samsung_lpm-p35 -b lineage-22.2 vendor/Samsung/lpm-p35
+https://github.com/yamotaprjkt/android_kernel_samsung_a04e -b lineage-22.2 kernel/samsung/a04e
